@@ -2,6 +2,6 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-@app.get("/")
-def read_root():
-    return {"message": "NeuroTask AI is Running!"}
+@app.get("/modify-todo")
+def get():
+    return {"message:":"Hello world"}
