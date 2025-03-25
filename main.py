@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from openai import OpenAI
 
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = ""
 # Initialize FastAPI
 app = FastAPI()
 
